@@ -1,0 +1,40 @@
+<view class="container">
+
+    <!-- 头部容器 -->
+    <!-- <view class='header'> -->
+      <!-- 头像与昵称 -->
+      <!-- <view class="userinfo">
+      <image>
+
+      </image>
+      </view>
+
+      <view class="currentHoliday"></view>
+
+    </view> -->
+
+
+    <!-- 假期列表承载容器 -->
+    <view wx:for="{{holidays}}">
+      <!-- 每一个假期的显示 -->
+      <view class="holiday-item" style='background:#F2F2F2'>
+        <!-- 左边 - 假期名称以及日期 -->
+        <view class='holiday-item-left'>
+          <view class='holiday-item-name'>
+            {{item.name}}
+          </view>
+          <view class='holiday-item-date'>
+            {{item.date}} ~ {{item.endDate}} | {{item.days}}天
+          </view>
+        </view>
+
+        <!-- 右边 - 天数 -->
+        <view class='holiday-item-right'>
+          <view class='holiday-item-days'>{{item.countDay}}</view>
+          <view class='holiday-item-unit'>天</view>
+        </view>
+      </view>
+    </view>
+    
+
+</view>

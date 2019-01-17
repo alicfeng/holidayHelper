@@ -1,0 +1,68 @@
+/* pages/index/index.wxss */
+
+.header {
+  width: auto;
+  height: 100px;
+  padding: 0px;
+}
+
+.userinfo {
+  width: 30%;
+  height: 100%;
+  background: rebeccapurple;
+}
+
+.holiday-item {
+  padding: 0px;
+  height: 80px;
+  width: auto;
+  border-radius: 5px;
+  margin: 5px 5px 5px 5px;
+  font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
+}
+
+.holiday-item-left {
+  width: 60%;
+  height: 100%;
+  float: left;
+}
+
+.holiday-item-name {
+  width: 100%;
+  height: 60%;
+  padding-left: 20px;
+  line-height: 48px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.holiday-item-date {
+  width: 100%;
+  height: 40%;
+  padding-left: 20px;
+  font-size: 12px;
+}
+
+.holiday-item-right {
+  width: 40%;
+  height: 100%;
+  float: right;
+}
+
+.holiday-item-days {
+  width: 70%;
+  height: 100%;
+  float: left;
+  text-align: right;
+  line-height: 80px;
+  font-size: 45px;
+}
+
+.holiday-item-unit {
+  width: 20%;
+  height: 100%;
+  float: right;
+  text-align: center;
+  font-size: 12px;
+  padding-top: 55px;
+}
