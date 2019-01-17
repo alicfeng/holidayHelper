@@ -1,0 +1,11 @@
+{
+  "miniprogramRoot": "src/",
+  "pluginRoot": "plugin/",
+  "compileType": "plugin",
+  "setting": {
+    "newFeature": true
+  },
+  "appid": "wx557a6aaa466a72c2",
+  "projectname": "holidayHelper",
+  "condition": {}
+}

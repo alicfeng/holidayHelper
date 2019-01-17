@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/home/home"
+  ],
+  "plugins": {
+    "myPlugin": {
+      "version": "dev",
+      "provider": "wx557a6aaa466a72c2"
+    }
+  }
+}

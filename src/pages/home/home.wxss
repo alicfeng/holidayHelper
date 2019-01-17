@@ -1,0 +1,9 @@
+/* pages/index/index.wxss */
+
+.holiday-item{
+  height: 80px;
+  width: auto;
+  background: grey;
+  border-radius: 5px;
+  margin: 5px 5px 5px 5px;
+}
